@@ -108,7 +108,8 @@ button {
 .banner {
     display: flex;
     height: 397px;
-    background: url(../images/banner.png), lightgray 50% / cover no-repeat;
+    background: url(../images/banner.png) no-repeat;
+    background-size: cover;
     border-radius: 0 0 16px 16px;
 
 }
