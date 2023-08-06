@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* 毛玻璃效果 */
+.glass {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.50);
+    /* 毛玻璃效果 */
+    backdrop-filter: blur(7px);
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(../images/background.png) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+button {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+/* 顶部导航栏 */
+.nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+}
+
+.nav h1::before {
+    content: "";
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+}
+
+
+.nav h1 {
+    flex: 1;
+}
+
+.nav h1 a {
+    flex: 1;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav ul li:hover {
+    background: rgba(255, 255, 255);
+}
+
+
+.nav ul {
+    /* width: 264px; */
+    padding-right: 15px;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+/* 适配移动端导航栏 */
+@media screen and (max-width:468px) {
+
+    .nav li:nth-child(1),
+    .nav li:nth-child(5) {
+        display: none;
+    }
+}
+
+/* 头图区 */
+.banner {
+    display: flex;
+    height: 397px;
+    background: url(../images/banner.png), lightgray 50% / cover no-repeat;
+    border-radius: 0 0 16px 16px;
+
+}
+
+.describe {
+    display: inline-flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.nav ul li,
+.describe .title,
+.describe .subtitle {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* 设置渐变字体 */
+.describe .title h1,
+.describe .subtitle i {
+    background: linear-gradient(142deg, #28BBB2 9.38%, #0029BC 53.13%, #D906DD 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.describe .title h1 {
+    font-size: 25px;
+}
+
+.container {
+    position: relative;
+    margin: 15PX auto 0;
+    width: 1400px;
+    border-radius: 14px;
+    /* background: #CAF0DE; */
+    overflow: hidden;
+}
+
+@media screen and (max-width:1400px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+/* 内容主体 */
+.container .introduce ul li {
+    margin: 4px 4px;
+    padding: 15PX 0 0 15px;
+    height: 90px;
+    display: inline-block;
+    line-height: 200%;
+    flex-basis: 250px;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+
+/* 介绍区 */
+.introduce {
+    /* background-color: pink; */
+    margin: 15px 10px;
+}
+
+.introduce ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.container .introduce li h3 {
+    font-size: 14px;
+}
+
+.container .introduce li i {
+    font-size: 12px;
+}
+
+.container h1 {
+    margin: 0 0 10px 15px;
+}
+
+
+main::after {
+    position: absolute;
+    top: 22%;
+    left: 2%;
+    content: '';
+    background: #000;
+    height: 480px;
+    width: 100%;
+    background: url(../images/effect.png) no-repeat;
+    background-size: cover;
+    z-index: -1;
+    transform: rotateY(180deg);
+}
+
+/* 下载 */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: pink; */
+
+}
+
+main .info {
+    flex-basis: 400px;
+    margin: 0 15px;
+    padding: 15px 0 0 20px;
+    flex-grow: 1;
+    /* background-color: pink */
+}
+
+main .i h2 {
+    margin: 0 0 10px 0;
+}
+
+main h3,
+.dl a {
+    font-size: 16px;
+    background-color: #222;
+    border-radius: 10px;
+    color: #fff;
+    width: 66px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+main h3:nth-child(2) {
+    background-color: #970000;
+}
+
+main .info .application {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 15px 15px 0 0;
+    padding: 15px;
+}
+
+main .info .application .left {
+    flex-basis: 60px;
+    margin-right: 20px;
+}
+
+main .info .application .right {
+    flex: 1;
+}
+
+main .picture {
+    margin: 0 15px 0;
+    background: url(../images/picture.png) no-repeat;
+    background-size: cover;
+    flex-basis: 500px;
+    height: 530px;
+    flex-grow: 2;
+    width: 100%;
+}
+
+.dl {
+    display: flex;
+    justify-content: center;
+}
+
+.dl a {
+    margin-top: 15px;
+    width: 166px;
+    text-align: center;
+    background: linear-gradient(145deg, #0eca43 0%, #0ecab3 75%);
+}
+
+#developer {
+    margin-top: 15px;
+}
+
+.dev {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 18px;
+}
+
+.dev .developer {
+    flex: 1;
+    flex-basis: 280px;
+    height: 240px;
+    margin: 5px 10px;
+
+}
+
+.dev .developer .img {
+    margin: 15px auto 0;
+    background: url(../images/developer1.svg);
+    width: 93px;
+    height: 93px;
+}
+
+.dev .developer .name {
+    text-align: center;
+    font-size: 20px;
+}
+
+.dev .developer .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.dev .developer .btn a {
+    background: linear-gradient(23deg, #bf2ccc 0%, #2c3ccc 100%);
+    margin-top: 10px;
+    padding: 4px 30px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.update {
+    width: 1350px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+@media screen and (max-width:1400px) {
+    .update {
+        width: 100%;
+    }
+}
+
+.update .title {
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 0px !important;
+}
