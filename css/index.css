@@ -258,7 +258,7 @@ main .info .application {
 }
 
 main .info .application .left {
-    flex-basis: 60px;
+    flex-basis: 70px;
     margin-right: 20px;
 }
 
@@ -313,6 +313,11 @@ main .picture {
     width: 93px;
     height: 93px;
 }
+
+.dev .developer .dev2 {
+    background: url(../images/developer2.svg);
+}
+
 
 .dev .developer .name {
     text-align: center;
