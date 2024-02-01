@@ -41,7 +41,7 @@ body {
 }
 
 body {
-    background: url(https://jsd.linux.sh.cn/gh/chenskiro/command-help-homepage@main/images/background.png) no-repeat center center fixed;
+    background: url(https://jsd.cdn.zzko.cn/gh/chenskiro/command-help-homepage@main/images/background.png) no-repeat center center fixed;
     background-size: cover;
 
 }
@@ -108,7 +108,7 @@ button {
 .banner {
     display: flex;
     height: 397px;
-    background: url(https://jsd.linux.sh.cn/gh/chenskiro/command-help-homepage@main/images/banner.png) no-repeat;
+    background: url(https://jsd.cdn.zzko.cn/gh/chenskiro/command-help-homepage@main/images/banner.png) no-repeat;
     background-size: cover;
     border-radius: 0 0 16px 16px;
 
@@ -208,7 +208,7 @@ main::after {
     background: #000;
     height: 480px;
     width: 100%;
-    background: url(https://jsd.linux.sh.cn/gh/chenskiro/command-help-homepage@main/images/effect.png) no-repeat;
+    background: url(https://jsd.cdn.zzko.cn/gh/chenskiro/command-help-homepage@main/images/effect.png) no-repeat;
     background-size: cover;
     z-index: -1;
     transform: rotateY(180deg);
@@ -268,7 +268,7 @@ main .info .application .right {
 
 main .picture {
     margin: 0 15px 0;
-    background: url(https://jsd.linux.sh.cn/gh/chenskiro/command-help-homepage@main/images/picture.png) no-repeat;
+    background: url(https://jsd.cdn.zzko.cn/gh/chenskiro/command-help-homepage@main/images/picture.png) no-repeat;
     background-size: cover;
     flex-basis: 500px;
     height: 530px;
@@ -309,13 +309,13 @@ main .picture {
 
 .dev .developer .img {
     margin: 15px auto 0;
-    background: url(https://jsd.linux.sh.cn/gh/chenskiro/command-help-homepage@main/images/developer1.svg);
+    background: url(https://jsd.cdn.zzko.cn/gh/chenskiro/command-help-homepage@main/images/developer1.svg);
     width: 93px;
     height: 93px;
 }
 
 .dev .developer .dev2 {
-    background: url(https://jsd.linux.sh.cn/gh/chenskiro/command-help-homepage@main/images/developer2.svg);
+    background: url(https://jsd.cdn.zzko.cn/gh/chenskiro/command-help-homepage@main/images/developer2.svg);
 }
 
 
