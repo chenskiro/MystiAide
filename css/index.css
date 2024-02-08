@@ -35,11 +35,6 @@ h2 {
     backdrop-filter: blur(7px);
 }
 
-html,
-body {
-    scroll-behavior: smooth;
-}
-
 body {
     background: url(https://jsd.cdn.zzko.cn/gh/chenskiro/command-help-homepage@main/images/background.png) no-repeat center center fixed;
     background-size: cover;
