@@ -1,5 +1,5 @@
-# command-helper
-命令助手
+# 魔法命令
+CH命令助手（魔法命令）
 
 - 该软件非开源软件，仅网页开源，使用GitHub作为托管平台
 - 由于传播，复制，分发，使用该软件带来的所有不良后果，由您自行承担
@@ -8,6 +8,12 @@
 # 下载
 如需下载安装包或查看更新日志，请直接前往 [release](https://github.com/chenskiro/command-helper/releases) 查看
 安装包可能会跳版本，但不影响使用，直接下载最新版即可
+
+# 用户指南
+
+前往 [ MystiAide GitHub Wiki](https://github.com/chenskiro/MystiAide/wiki) 页面。
+
+任何人均可编辑的社区Wiki！
 
 # 功能介绍
 
