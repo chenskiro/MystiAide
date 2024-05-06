@@ -18,6 +18,20 @@ CH命令助手（魔法命令）
 
 意见与bug反馈请前往 [issuess](https://github.com/chenskiro/MystiAide/issues)
 
+# 部署
+使用该网页源码部署网站
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/chenskiro/MystiAide/)
+
+点击按钮使用 vercel 一键部署
+
+或将网页源码下载到本地部署
+
+```
+git@github.com:chenskiro/MystiAide.git
+```
+
+
 # 功能介绍
 
 ![](./images/command-menu.png)
