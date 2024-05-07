@@ -33,6 +33,8 @@ h2 {
     background: rgba(255, 255, 255, 0.50);
     /* 毛玻璃效果 */
     backdrop-filter: blur(7px);
+    /* 利用 transform 属性 使 CSS 启用 GPU 加速，尝试缓解 blur 造成的卡顿 */
+    transform: translateZ(0);
 }
 
 body {
